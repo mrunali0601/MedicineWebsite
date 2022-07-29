@@ -1,0 +1,274 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'PT Serif', serif;
+}
+#header{
+	background-image: url(images/banner.jpg);
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-nav li a 
+{
+	font-size: 25px;
+	float: right;
+	color: #fff!important;
+}
+.navbar-toggler{
+	border: none!important;
+	outline: none!important;
+}
+nav .fa-bars{
+	color: #fff;
+	font-size: 40px;
+
+}
+/*-----------------Welcome Text-----------------------*/
+.welcome{
+	padding: 50px 100px;
+	margin-top: -140px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,2); 
+}
+.welcome{
+	color: #333;
+}
+.welcome .home-btn{
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #013f7e;
+}
+.welcome .btn:focus{
+	box-shadow: none;
+}
+#about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#about .col-md-6{
+	padding: 20px 10px;
+}
+#about h3{
+	margin: 20px auto;
+}
+/*---------------Disease-------------------------------*/
+/*---------------Services----------------------*/
+#disease{
+	padding-top: 150px;
+	padding-bottom: 250px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/dna.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+#features .col-md-6{
+	padding: 10px;
+}
+
+#disease.col-md-3 h4{
+	left: -11%;
+}
+
+#disease .col-md-3 p{
+	left: -11%;
+}
+/*---------------Services----------------------*/
+
+#services{
+	background-color: #efefef;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#services .col-md-4 {
+	padding: 20px;
+	}
+#services .col-md-4 h4{
+	padding: 5px;
+}
+#services .col-md-4 img{
+	width: 50px;
+}
+#services .col-md-4 p{
+	padding: 5px;
+	text-align: justify;
+}	
+/*---------------Features--------------------*/
+#features{
+	padding-top: 150px;
+	padding-bottom: 250px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/tt.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+
+}
+#features .col-md-6{
+	padding: 10px;
+}
+
+#features .col-md-6 h4{
+	left: -11%;
+}
+
+#features .col-md-6 p{
+	left: -11%;
+}
+.feature-box{
+	height: 120px;
+}
+.feature-box .feature-left{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+.feature-box .feature-left .fa{
+	padding-top: 13px;
+	font-size: 50px;
+}
+.feature-box .feature-right{
+	height: 120px;
+	width: 80%;
+	float:left;
+}
+.feature-box .feature-right h4{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: 
+}
+.feature-box .feature-right p{
+	padding-left: 15px;
+	text-align: left;
+}
+/*------------------Subscribe-----------------------*/
+.subscribe{
+	padding: 50px 20px;
+	background-color: #013f7e;
+	position: relative;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	
+	
+}
+.subscribe h3{
+	color: #fff;
+}
+.subscribe p{
+	color: #fff;
+	top: 3%;
+}
+.subscribe .input-group{
+	border-radius: 30px;
+	background-color: #fff;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 5px;
+}
+.subscribe .form-control{
+	border: none;
+	background: transparent;
+
+}
+.subscribe .form-control : focus{
+	box-shadow: none;
+	background: transparent; 
+
+}
+.subscribe .input-group-append{
+	background-image: linear-gradient(to right,#1c03b5,#5c8bef);
+	border-radius: 30px;
+}
+.subscribe .input-group-text{
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+.subscribe .btn:focus{
+	box-shadow: none;
+	
+}
+/*------------------Images-----------------------------------*/
+#images{
+	padding-top: 150px;
+	padding-bottom: 250px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/mc.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+.images h1{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+.images .input-group{
+	border-radius: 30px;
+	background-color: #fff;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 5px;
+}
+.images .form-control{
+	border: none;
+	background: transparent;
+
+}
+.images .form-control: focus{
+	box-shadow: none;
+	background: transparent; 
+
+}
+.images .input-group-append{
+	background-image: linear-gradient(to right,#1c03b5,#5c8bef);
+	border-radius: 30px;
+}
+.images .input-group-text{
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+.images .btn:focus{
+	box-shadow: none;
+	
+}
+
+
+
+/*------------------Footer-----------------------------*/
+#footer{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #efefef;
+	color: #013f7e;
+}
+.footer-logo{
+	width: 80px;
+	margin-top: 9px;
+	margin-bottom: 10px;
+}
+#footer h1{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#footer p{
+	font-size: 12px;
+	text-align: left;
+}
+#footer  .city{
+	margin-left: 37px;
+}
+#footer .fa{
+	padding-right: 20px;
+	font-size: 15px;
+}
+.p1 {
+	padding-top: 15px;
+}
